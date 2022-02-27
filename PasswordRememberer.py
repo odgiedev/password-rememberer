@@ -22,8 +22,7 @@ class Window:
                 break
 
             self.passwords.append(self.values)
-            print(self.passwords[0]["Service"])
-            
+            print(self.passwords)
 w = Window()
 
 w.Init()
